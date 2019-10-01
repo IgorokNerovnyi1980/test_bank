@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/test_bank/static/css/main.1950400c.chunk.css",
+    "main.js": "/test_bank/static/js/main.b2e2fae9.chunk.js",
+    "main.js.map": "/test_bank/static/js/main.b2e2fae9.chunk.js.map",
+    "runtime-main.js": "/test_bank/static/js/runtime-main.a37fb491.js",
+    "runtime-main.js.map": "/test_bank/static/js/runtime-main.a37fb491.js.map",
+    "static/js/2.1f02341e.chunk.js": "/test_bank/static/js/2.1f02341e.chunk.js",
+    "static/js/2.1f02341e.chunk.js.map": "/test_bank/static/js/2.1f02341e.chunk.js.map",
+    "index.html": "/test_bank/index.html",
+    "precache-manifest.57e137aae6bfb5d3b03a6ea09365961d.js": "/test_bank/precache-manifest.57e137aae6bfb5d3b03a6ea09365961d.js",
+    "service-worker.js": "/test_bank/service-worker.js",
+    "static/css/main.1950400c.chunk.css.map": "/test_bank/static/css/main.1950400c.chunk.css.map",
+    "static/media/card.png": "/test_bank/static/media/card.03a82aca.png"
+  }
+}
