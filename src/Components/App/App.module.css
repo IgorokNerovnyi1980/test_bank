@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Roboto&display=swap');
+
+/* font-family: 'IBM Plex Sans', sans-serif; */
+.screen {
+    width: 1366px;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgb(245, 245, 177);
+    font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+/* .wer{
+  justify-content: space-between  
+} */

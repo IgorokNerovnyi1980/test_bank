@@ -1,0 +1,22 @@
+import React from "react";
+import styled from "styled-components";
+import Card from "../Card/Card";
+import TextBlock from "../Title/TextBlock";
+
+const Wrapper = styled.div`
+  width: 100%;
+  height: 640px;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+`;
+
+const Baner = () => (
+  <Wrapper>
+    <TextBlock />
+    <Card />
+  </Wrapper>
+);
+export default Baner;
