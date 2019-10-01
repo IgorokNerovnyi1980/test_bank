@@ -1,5 +1,8 @@
 import React from "react";
 import styled from "styled-components";
+import Circles from "../smollItems/Circles/Circles";
+import Burger from "../smollItems/Burger/Burger";
+
 const text = " Замовити картку";
 
 const Header = styled.header`
@@ -9,6 +12,7 @@ const Header = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.64);
 `;
 const Wrapper = styled.div`
   width: 20%;
@@ -33,9 +37,11 @@ const Button = styled.button`
 
 const HeaderMenu = () => (
   <Header>
-    <div>Logo</div>
+    <Circles />
     <Wrapper>
-      <nav>Menu</nav>
+      <nav>
+        <Burger />
+      </nav>
       <Button>{text}</Button>
     </Wrapper>
   </Header>
