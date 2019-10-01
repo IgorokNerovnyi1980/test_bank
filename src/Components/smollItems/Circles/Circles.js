@@ -25,12 +25,6 @@ const Circle2 = styled.div`
   background: #ffffff;
   opacity: 0.64;
   border-radius: 32px;
-  ::after {
-    content: "";
-    width: 30px;
-    height: 30px;
-    background: black;
-  }
 `;
 
 const Circles = () => (

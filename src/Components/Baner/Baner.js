@@ -11,6 +11,7 @@ const Wrapper = styled.div`
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  color: white;
 `;
 
 const Baner = () => (

@@ -4,6 +4,6 @@
     width: 1366px;
     height: auto;
     margin: 0 auto;
-    background-color: rgb(245, 245, 177);
     font-family: 'Roboto', 'Arial', sans-serif;
+    background: linear-gradient(0deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%), url(../../img/ezgif_2.png) no-repeat;
 }
