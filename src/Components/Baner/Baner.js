@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Card from "../Card/Card";
-import TextBlock from "../Title/TextBlock";
+import TextBlock from "../Texts/BanerTextBlock";
 
 const Wrapper = styled.div`
   width: 100%;
