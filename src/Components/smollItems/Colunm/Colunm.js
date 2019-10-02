@@ -9,12 +9,12 @@ const Wrapper = styled.div`
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  background-color: white;
 `;
 const Colunm = ({ height, arr }) => (
   <Wrapper height={height}>
     {arr.map(item => (
       <Item
+        key={item.id}
         id={item.id}
         icon={item.icon}
         title={item.title}
