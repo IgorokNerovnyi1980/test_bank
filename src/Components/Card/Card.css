@@ -1,0 +1,8 @@
+.simple-box {
+    align-items: stretch;
+    width: 440px;
+    height: 278px;
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
