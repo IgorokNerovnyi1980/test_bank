@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/test_bank/static/css/main.f480ffbc.chunk.css",
-    "main.js": "/test_bank/static/js/main.f2baba07.chunk.js",
-    "main.js.map": "/test_bank/static/js/main.f2baba07.chunk.js.map",
+    "main.css": "/test_bank/static/css/main.084d5c36.chunk.css",
+    "main.js": "/test_bank/static/js/main.8292f3cd.chunk.js",
+    "main.js.map": "/test_bank/static/js/main.8292f3cd.chunk.js.map",
     "runtime-main.js": "/test_bank/static/js/runtime-main.a37fb491.js",
     "runtime-main.js.map": "/test_bank/static/js/runtime-main.a37fb491.js.map",
     "static/js/2.aff0527a.chunk.js": "/test_bank/static/js/2.aff0527a.chunk.js",
     "static/js/2.aff0527a.chunk.js.map": "/test_bank/static/js/2.aff0527a.chunk.js.map",
     "index.html": "/test_bank/index.html",
-    "precache-manifest.674c379655ca9389d6e1882f429633d2.js": "/test_bank/precache-manifest.674c379655ca9389d6e1882f429633d2.js",
+    "precache-manifest.f26a66806d4df124d96b2312a56b7cc5.js": "/test_bank/precache-manifest.f26a66806d4df124d96b2312a56b7cc5.js",
     "service-worker.js": "/test_bank/service-worker.js",
-    "static/css/main.f480ffbc.chunk.css.map": "/test_bank/static/css/main.f480ffbc.chunk.css.map",
+    "static/css/main.084d5c36.chunk.css.map": "/test_bank/static/css/main.084d5c36.chunk.css.map",
     "static/media/Travel [New] r.png": "/test_bank/static/media/Travel [New] r.77da56fc.png",
     "static/media/bg.png": "/test_bank/static/media/bg.c26fcc7b.png",
     "static/media/App.module.css": "/test_bank/static/media/ezgif_2.ec415a75.png"
