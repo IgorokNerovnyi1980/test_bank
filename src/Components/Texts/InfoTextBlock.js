@@ -5,13 +5,16 @@ const title = "Планування подорожі";
 const text = "Ретельна підготовка — запорука вдалої мандрівки";
 
 const Wrapper = styled.div`
-  width: 100%;
+  width: 85%;
   height: 85px;
+  margin: 0 auto;
+  padding-top: 80px;
   font-family: "Roboto";
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  color: white;
 `;
 const Text = styled.p`
   font-size: 20px;

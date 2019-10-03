@@ -10,6 +10,7 @@ import icon32 from "../../../img/icons/col3_icn2.png";
 const Box = styled.div`
   width: 100%;
   height: auto;
+  margin-top: 40px;
   background: ${props => props.background};
   border-radius: 10px;
   box-shadow: 0px 3px 10px 2px rgba(0, 0, 0, 0.33);
@@ -84,7 +85,7 @@ const Item = ({ background, icon, title, text, link }) => {
       <Wrapper>
         <img src={icon} alt="Icon" />
         {title.map(item => (
-          <Title>{item}</Title>
+          <Title key={item}>{item}</Title>
         ))}
         <Text>{text}</Text>
         {link && <Link href={link}>Подробнее ></Link>}

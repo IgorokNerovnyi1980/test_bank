@@ -3,8 +3,9 @@ import styled from "styled-components";
 import Colunm from "../smollItems/Colunm/Colunm";
 
 const Wrapper = styled.div`
-  width: 100%;
-  min-height: 950px;
+  width: 85%;
+  height: 950px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
@@ -12,7 +13,7 @@ const Wrapper = styled.div`
 
 const height = {
   one: "100%",
-  two: "85%",
+  two: "78%",
   three: "84%"
 };
 
