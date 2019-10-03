@@ -20,6 +20,8 @@ const Colunm = ({ height, arr }) => (
         title={item.title}
         text={item.text}
         link={item.link}
+        background={item.background}
+        bool={item.activeLink}
       />
     ))}
   </Wrapper>

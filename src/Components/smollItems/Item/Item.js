@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import icon11 from "../../../img/icons/col1_icn1.png";
 import icon12 from "../../../img/icons/col1_icn2.png";
 import icon13 from "../../../img/icons/col1_icn3.png";
@@ -10,14 +10,18 @@ import icon32 from "../../../img/icons/col3_icn2.png";
 const Box = styled.div`
   width: 100%;
   height: auto;
-  margin-top: 20px;
-  background: white;
+  margin-top: 40px;
+  background: ${props => props.background};
   border-radius: 10px;
   transition: 0.4s;
-  :hover {
-    transform: scale(1.1);
-    transition: 0.4s;
-  }
+  ${props =>
+    props.hover &&
+    css`
+      :hover {
+        transform: scale(1.1);
+        transition: 0.4s;
+      }
+    `}
 `;
 
 const Wrapper = styled.div`
@@ -31,9 +35,7 @@ const Wrapper = styled.div`
   justify-content: space-around;
   align-items: flex-start;
 `;
-// const Icon = styled.div``;
 const Title = styled.h4`
-  margin-top: 10px;
   font-family: Roboto;
   font-weight: bold;
   font-size: 24px;
@@ -52,12 +54,12 @@ const Text = styled.p`
   letter-spacing: -0.050568px;
   color: #0f0f10;
 `;
-const Link = styled.p`
-  padding-left: 5px;
+const Link = styled.a`
+  text-decoration: none;
   color: blue;
 `;
 
-const Item = ({ icon, title, text, link,bckgd }) => {
+const Item = ({ background, icon, title, text, link }) => {
   if (icon === "icon11") {
     icon = icon11;
   } else if (icon === "icon12") {
@@ -73,12 +75,14 @@ const Item = ({ icon, title, text, link,bckgd }) => {
   }
 
   return (
-    <Box>
+    <Box background={background} hover={link}>
       <Wrapper>
-        <img src={icon} alt="" />
-        <Title>{title}</Title>
+        <img src={icon} alt="Icon" />
+        {title.map(item => (
+          <Title>{item}</Title>
+        ))}
         <Text>{text}</Text>
-        {link && <Link>{link}</Link>}
+        {link && <Link href={link}>Подробнее ></Link>}
       </Wrapper>
     </Box>
   );

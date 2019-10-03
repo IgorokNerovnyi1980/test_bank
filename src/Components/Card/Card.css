@@ -6,11 +6,3 @@
     color: #fff;
     text-align: center;
 }
-
-.wer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    font-weight: bold;
-}
