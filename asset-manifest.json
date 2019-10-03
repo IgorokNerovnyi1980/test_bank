@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/test_bank/static/css/main.2607b2fe.chunk.css",
-    "main.js": "/test_bank/static/js/main.0813ddd3.chunk.js",
-    "main.js.map": "/test_bank/static/js/main.0813ddd3.chunk.js.map",
+    "main.js": "/test_bank/static/js/main.c560fa56.chunk.js",
+    "main.js.map": "/test_bank/static/js/main.c560fa56.chunk.js.map",
     "runtime-main.js": "/test_bank/static/js/runtime-main.a37fb491.js",
     "runtime-main.js.map": "/test_bank/static/js/runtime-main.a37fb491.js.map",
     "static/js/2.159e935e.chunk.js": "/test_bank/static/js/2.159e935e.chunk.js",
     "static/js/2.159e935e.chunk.js.map": "/test_bank/static/js/2.159e935e.chunk.js.map",
     "index.html": "/test_bank/index.html",
-    "precache-manifest.0b8a51aabbecbb9c02430a20bfc40d28.js": "/test_bank/precache-manifest.0b8a51aabbecbb9c02430a20bfc40d28.js",
+    "precache-manifest.d8cfda1cbf5add59c0c92fec4d723ada.js": "/test_bank/precache-manifest.d8cfda1cbf5add59c0c92fec4d723ada.js",
     "service-worker.js": "/test_bank/service-worker.js",
     "static/css/main.2607b2fe.chunk.css.map": "/test_bank/static/css/main.2607b2fe.chunk.css.map",
     "static/media/Travel [New] r.png": "/test_bank/static/media/Travel [New] r.77da56fc.png",
