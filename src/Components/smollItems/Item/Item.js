@@ -10,15 +10,17 @@ import icon32 from "../../../img/icons/col3_icn2.png";
 const Box = styled.div`
   width: 100%;
   height: auto;
-  margin-top: 40px;
   background: ${props => props.background};
   border-radius: 10px;
+  box-shadow: 0px 3px 10px 2px rgba(0, 0, 0, 0.33);
   transition: 0.4s;
   ${props =>
     props.hover &&
     css`
+      cursor: pointer;
       :hover {
         transform: scale(1.1);
+        box-shadow: 0px 3px 10px 4px rgba(0, 0, 0, 0.33);
         transition: 0.4s;
       }
     `}
@@ -60,6 +62,7 @@ const Link = styled.a`
 `;
 
 const Item = ({ background, icon, title, text, link }) => {
+  let click = null;
   if (icon === "icon11") {
     icon = icon11;
   } else if (icon === "icon12") {
@@ -73,9 +76,11 @@ const Item = ({ background, icon, title, text, link }) => {
   } else if (icon === "icon32") {
     icon = icon32;
   }
-
+  if (link) {
+    click = () => alert("переход по ссылке");
+  }
   return (
-    <Box background={background} hover={link}>
+    <Box background={background} hover={link} onClick={click}>
       <Wrapper>
         <img src={icon} alt="Icon" />
         {title.map(item => (

@@ -6,6 +6,9 @@ import Burger from "../smollItems/Burger/Burger";
 const text = " Замовити картку";
 
 const Header = styled.header`
+  position: sticky;
+  top: 0;
+  z-index: 5;
   width: 66%;
   height: 80px;
   margin: 0 auto;

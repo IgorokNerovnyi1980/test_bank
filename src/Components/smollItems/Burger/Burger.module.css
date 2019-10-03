@@ -12,6 +12,7 @@
     right: 0;
     height: 3px;
     background: white;
+    cursor: poiner;
 }
 
 .burger::before,
@@ -23,6 +24,7 @@
     height: 3px;
     background-color: #fff;
     content: "";
+    cursor: poiner;
 }
 
 .burger::before {

@@ -5,22 +5,22 @@ const title = "Планування подорожі";
 const text = "Ретельна підготовка — запорука вдалої мандрівки";
 
 const Wrapper = styled.div`
-  position: absolute;
-  width: 85%;
-  height: 95px;
-  top: 70px;
-  left: 85px;
+  width: 100%;
+  height: 85px;
   font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 `;
 const Text = styled.p`
   font-size: 20px;
-  margin-top: 15px;
-  padding-left: 10px;
+  padding-left: 15px;
 `;
 const Title = styled.h2`
   font-size: 54px;
   font-weight: bold;
-  padding-left: 10px;
+  padding-left: 15px;
 `;
 
 const TextBlock = () => (

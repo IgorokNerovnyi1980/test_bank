@@ -5,12 +5,36 @@
     height: auto;
     margin: 0 auto;
     font-family: 'Roboto', 'Arial', sans-serif;
-    background: linear-gradient(0deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%), url(../../img/ezgif_2.png) no-repeat;
+    background: linear-gradient(0deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%), url(../../img/stup.png) no-repeat;
+}
+
+.block1 {
+    perspective: 1px;
+    transform-style: inherit;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    transform-style: preserve-3d;
+
+}
+
+.block2 {
+    transform-style: inherit;
+
+}
+
+.block2::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform-origin: center;
+    background-image: url(${bg});
+    transform: translateZ(-1px);
 }
 
 .wer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: column
 }

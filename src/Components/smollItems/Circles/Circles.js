@@ -15,16 +15,10 @@ const Circle1 = styled.div`
   background: #ffffff;
   opacity: 0.64;
   border-radius: 32px;
+  cursor: poiner;
 `;
-const Circle2 = styled.div`
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  top: 0;
+const Circle2 = styled(Circle1)`
   left: 20px;
-  background: #ffffff;
-  opacity: 0.64;
-  border-radius: 32px;
 `;
 
 const Circles = () => (

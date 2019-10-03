@@ -5,8 +5,8 @@ import TextBlock from "../Texts/BanerTextBlock";
 
 const Wrapper = styled.div`
   width: 100%;
-  height: 640px;
-  margin-top: 70px;
+  height: 580px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;

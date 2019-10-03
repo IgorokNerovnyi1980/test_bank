@@ -4,7 +4,7 @@ import Item from "../Item/Item";
 
 const Wrapper = styled.div`
   width: 30%;
-  height: ${props => props.height};
+  min-height: ${props => props.height};
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
