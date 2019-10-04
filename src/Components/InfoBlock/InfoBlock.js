@@ -20,7 +20,7 @@ const Box = styled.div`
 const InfoBlock = () => (
   <Box>
     <TextBlock />
-    <Parallax className="custom-class" y={[-8, 10]} tagOuter="figure">
+    <Parallax className="custom-class" y={[-6, 12]} tagOuter="figure">
       <OptionsBlock />
     </Parallax>
   </Box>

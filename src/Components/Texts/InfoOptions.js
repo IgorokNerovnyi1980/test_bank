@@ -13,8 +13,8 @@ const Wrapper = styled.div`
 
 const height = {
   one: "100%",
-  two: "78%",
-  three: "84%"
+  two: "80%",
+  three: "85%"
 };
 
 const colunm1 = [
